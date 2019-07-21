@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <Navbar
-        className="blue lighten-1"
+        className="indigo"
         brand={<span>Tyler Turnipseed</span>}
         centerLogo
         alignLinks="left"

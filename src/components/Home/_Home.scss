@@ -1,0 +1,34 @@
+.home {
+  height: 100vh;
+  margin-top: -64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-wrapper {
+    padding: 4rem;
+    border-radius: 10px;
+
+    .title {
+      @include resp-text(5.5rem, 4.2rem, 3.5rem, 3.1rem);
+      font-size: 6rem;
+      margin: 0;
+      padding-bottom: 1rem;
+      font-family: $font-1;
+    }
+
+    .tagline {
+      @include resp-text(2rem, 1.5rem, 1.25rem, 1.1rem);
+      font-size: 2.2rem;
+      margin: 0;
+      font-family: $font-2;
+      font-weight: 100;
+    }
+  }
+}

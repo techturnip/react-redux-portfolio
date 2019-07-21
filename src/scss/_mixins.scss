@@ -1,0 +1,29 @@
+@mixin flex-align($justify: flex-start, $align: flex-start, $dir: row, $wrap: wrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+}
+
+@mixin box-shadow($size: 5px, $blur: 10px) {
+  box-shadow: 0 $size $blur $shadow;
+}
+
+@mixin resp-text($xl-font, $lg-font, $md-font, $sm-font) {
+  @media #{$break-xl} {
+    font-size: $xl-font;
+  }
+
+  @media #{$break-lg} {
+    font-size: $lg-font;
+  }
+
+  @media #{$break-md} {
+    font-size: $md-font;
+  }
+
+  @media #{$break-sm} {
+    font-size: $sm-font;
+  }
+}
