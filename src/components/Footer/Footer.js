@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="footer indigo">
-      <p className="grey-text text-lighten-3 copyright">
+      <p className="grey-text text-lighten-1 copyright">
         &copy; {date.getFullYear()} - Tyler Turnipseed
       </p>
 
