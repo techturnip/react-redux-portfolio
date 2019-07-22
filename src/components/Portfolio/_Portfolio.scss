@@ -1,0 +1,8 @@
+.portfolio {
+  @include initial-setup();
+  padding-bottom: 57px;
+
+  .portfolio-item-card {
+    padding: 2rem;
+  }
+}

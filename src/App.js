@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import Header from './components/Header/Header'
 import About from './components/About/About'
+import Portfolio from './components/Portfolio/Portfolio'
 import Footer from './components/Footer/Footer'
 
 // Styles
@@ -22,6 +23,7 @@ class App extends Component {
         <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
       </div>
     )

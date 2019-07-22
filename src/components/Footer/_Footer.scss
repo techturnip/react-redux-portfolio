@@ -12,5 +12,18 @@
 
   .fixed-action-btn {
     position: absolute;
+
+    ul {
+      li {
+        transform: scale(1.4);
+        margin-bottom: 1.5rem;
+
+        a {
+          svg {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
   }
 }

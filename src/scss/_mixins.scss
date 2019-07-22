@@ -6,6 +6,12 @@
   flex-wrap: $wrap;
 }
 
+@mixin initial-setup($height: 100vh, $offset: 64px) {
+  min-height: $height;
+  margin-top: -$offset;
+  padding-top: $offset;
+}
+
 @mixin box-shadow($size: 5px, $blur: 10px) {
   box-shadow: 0 $size $blur $shadow;
 }

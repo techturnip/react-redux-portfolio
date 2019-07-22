@@ -29,7 +29,7 @@ const Footer = () => {
           href="https://github.com/techturnip"
           target="_blank"
           floating
-          className="red"
+          className="red github"
         >
           <FontAwesomeIcon icon={faGithub} size="lg" />
         </Button>
@@ -38,7 +38,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/tyler-turnipseed/"
           target="_blank"
           floating
-          className="green"
+          className="green linkedin"
         >
           <FontAwesomeIcon icon={faLinkedin} size="lg" />
         </Button>
@@ -47,7 +47,7 @@ const Footer = () => {
           href="https://twitter.com/tylertechseed"
           target="_blank"
           floating
-          className="blue"
+          className="blue twitter"
         >
           <FontAwesomeIcon icon={faTwitter} size="lg" />
         </Button>
