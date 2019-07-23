@@ -2,7 +2,17 @@
   @include initial-setup();
   padding-bottom: 57px;
 
-  .portfolio-item-card {
-    padding: 2rem;
+  .portfolio-wrapper {
+    padding-top: 4rem;
+
+    .portfolio-item-card {
+      position: relative;
+      cursor: pointer;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
   }
+
+
 }

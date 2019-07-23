@@ -10,10 +10,19 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $font-2;
   margin: 0;
   padding: 0;
 }
 
 strong {
   font-weight: 600;
+}
+
+.page-title {
+  letter-spacing: .2rem;
+  text-shadow: 0 2px 8px #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px rgba(189, 182, 182, 0.9);
 }

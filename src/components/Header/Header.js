@@ -42,7 +42,14 @@ const Header = props => {
         >
           About
         </NavItem>
-        <NavItem onClick={setActive}>Portfolio</NavItem>
+        <NavItem
+          onClick={e => {
+            setActive(e)
+            props.history.push('/portfolio')
+          }}
+        >
+          Portfolio
+        </NavItem>
         <NavItem onClick={setActive}>Blog</NavItem>
       </Navbar>
     </header>

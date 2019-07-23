@@ -14,9 +14,12 @@ class Portfolio extends Component {
 
     return (
       <div className="portfolio container">
-        {portfolio.map(item => (
-          <PortfolioItemCard key={item.id} portfolioItem={item} />
-        ))}
+        <div className="portfolio-wrapper">
+          <h2 className="white-text page-title">Portfolio</h2>
+          {portfolio.map(item => (
+            <PortfolioItemCard key={item.id} portfolioItem={item} />
+          ))}
+        </div>
       </div>
     )
   }
